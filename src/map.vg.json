@@ -1,0 +1,6 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "UFC fighters nationalities",
+    "width": 800,
+    "height": 600
+  }
