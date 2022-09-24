@@ -24,7 +24,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/0xzaid/Map-Visualisation-using-Vega-Lite/main/data/F1/circuits2022.csv"
+        "url": "https://raw.githubusercontent.com/0xzaid/Map-Visualisation-using-Vega-Lite/main/data/F1/circuits.csv"
       },
       "mark": {
         "type": "circle",
