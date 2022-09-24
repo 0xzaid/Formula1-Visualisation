@@ -29,30 +29,9 @@
       "mark": {
         "type": "circle",
         "fill": "green",
+        "size": 80,
         "tooltip": {
-        "content": [
-          "data",
-          {
-            "title": "Country",
-            "field": "country"
-          },
-          {
-            "title": "Circuit",
-            "field": "circuit"
-          },
-          {
-            "title": "City",
-            "field": "city"
-          },
-          {
-            "title": "Latitude",
-            "field": "lat"
-          },
-          {
-            "title": "Longitude",
-            "field": "lng"
-          }
-        ]
+        "content": "data"
         }
       },
       "encoding": {
