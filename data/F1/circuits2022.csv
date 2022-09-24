@@ -1,24 +1,24 @@
-﻿race_number,name,location,country,lat,lng,DriverWinner,ConsWinner
-1,Bahrain International Circuit,Sakhir,Bahrain,26.0325,50.5106,Leclerc,Ferrari
-2,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,21.6319,39.1044,Verstappen,Red Bull
-3,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968,Leclerc,Ferrari
-4,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111,Verstappen,Red Bull
-5,Miami International Autodrome,Miami,USA,25.9581,-80.2389,Verstappen,Red Bull
-6,Circuit de Barcelona-Catalunya,Montreal,Spain,41.57,2.26111,Verstappen,Red Bull
-7,Circuit de Monaco,Monte-Carlo,Monaco,43.7347,7.42056,Perez,Red Bull
-8,Baku City Circuit,Baku,Azerbaijan,40.3725,49.8533,Verstappen,Red Bull
-9,Circuit Gilles Villeneuve,Montreal,Canada,45.5,-73.5228,Verstappen,Red Bull
-10,Silverstone Circuit,Silverstone,UK,52.0786,-1.01694,Sainz,Ferrari
-11,Red Bull Ring,Spielberg,Austria,47.2197,14.7647,Leclerc,Ferrari
-12,,,,,,,
-13,,,,,,,
-14,,,,,,,
-15,,,,,,,
-16,,,,,,,
-17,,,,,,,
-18,,,,,,,
-19,,,,,,,
-20,,,,,,,
-21,,,,,,,
-22,,,,,,,
-23,,,,,,,
+﻿race_number,name,location,country,lat,lng,DriverWinner,ConsWinner,Completed
+1,Bahrain International Circuit,Sakhir,Bahrain,26.0325,50.5106,Leclerc,Ferrari,Yes
+2,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,21.6319,39.1044,Verstappen,Red Bull,Yes
+3,Albert Park Grand Prix Circuit,Melbourne,Australia,-37.8497,144.968,Leclerc,Ferrari,Yes
+4,Autodromo Nazionale di Monza,Autodromo Enzo e Dino Ferrari,Imola,Italy,44.3439,11.7167,Red Bull,Yes
+5,Miami International Autodrome,Miami,USA,25.9581,-80.2389,Verstappen,Red Bull,Yes
+6,Circuit de Barcelona-Catalunya,Montreal,Spain,41.57,2.26111,Verstappen,Red Bull,Yes
+7,Circuit de Monaco,Monte-Carlo,Monaco,43.7347,7.42056,Perez,Red Bull,Yes
+8,Baku City Circuit,Baku,Azerbaijan,40.3725,49.8533,Verstappen,Red Bull,Yes
+9,Circuit Gilles Villeneuve,Montreal,Canada,45.5,-73.5228,Verstappen,Red Bull,Yes
+10,Silverstone Circuit,Silverstone,UK,52.0786,-1.01694,Sainz,Ferrari,Yes
+11,Red Bull Ring,Spielberg,Austria,47.2197,14.7647,Leclerc,Ferrari,Yes
+12,Circuit Paul Ricard,Le Castellet,France,43.2506,5.79167,Verstappen,Red Bull,Yes
+13,Hungaroring,Budapest,Hungary,47.5789,19.2486,Verstappen,Red Bull,Yes
+14,Circuit de Spa-Francorchamps,Spa,Belgium,50.4372,5.97139,Verstappen,Red Bull,Yes
+15,Circuit Park Zandvoort,Zandvoort,Netherlands,52.3888,4.54092,Verstappen,Red Bull,Yes
+16,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111,Verstappen,Red Bull,Yes
+17,Sochi Autodrom,Sochi,Russia,43.4057,39.9578,N/A,N/A,Cancelled
+18,Marina Bay Street Circuit,Marina Bay,Singapore,1.2914,103.864,N/A,N/A,No
+19,Suzuka Circuit,Suzuka,Japan,34.8431,136.541,N/A,N/A,No
+20,Circuit of the Americas,Austin,USA,30.1328,-97.6411,N/A,N/A,No
+21,AutÃ³dromo Hermanos RodrÃ­guez,Mexico City,Mexico,19.4042,-99.0907,N/A,N/A,No
+22,AutÃ³dromo JosÃ© Carlos Pace,SÃ£o Paulo,Brazil,-23.7036,-46.6997,N/A,N/A,No
+23,Yas Marina Circuit,Abu Dhabi,UAE,24.4672,54.6031,N/A,N/A,No
