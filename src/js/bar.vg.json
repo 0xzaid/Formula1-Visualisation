@@ -11,7 +11,7 @@
             "bind":{
                 "input": "select",
                 "options": [
-                    "null",
+                    "All",
                     "Bahrain",
                     "Saudi Arabia",
                     "Australia",
@@ -61,13 +61,13 @@
     ],
     "mark":"bar",
     "encoding": {
-        "y": { "field": "Driver","type":"nominal", "sort": "-x" },
-        "x": { "field": "Points","type":"quantitative"},
+        "x": { "field": "Driver","type":"nominal", "sort": "-y" },
+        "y": { "field": "Points","type":"quantitative"},
         "tooltip": [
-            {"field": "Position","type":"ordinal"},
-            {"field": "Points","type":"quantitative"},
             {"field": "Driver","type":"nominal"},
             {"field": "Team","type":"nominal"},
+            {"field": "Position","type":"ordinal"},
+            {"field": "Points","type":"quantitative"},
             {"field": "Starting Grid", "type":"ordinal"},
             {"field": "Fastest Lap", "type": "nominal"},
             {"field": "Time/Retired", "type": "nominal", "title": "Time"}
