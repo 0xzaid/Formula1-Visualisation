@@ -31,7 +31,7 @@
             "bind":{
                 "input": "select",
                 "options": [
-                    "null",
+                    "All",
                     "Bahrain",
                     "Saudi Arabia",
                     "Australia",
