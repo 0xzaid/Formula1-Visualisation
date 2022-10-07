@@ -3,35 +3,15 @@
     "title": "Driver standings by race",
     "width": 500,
     "data": {
-        "url": "https://raw.githubusercontent.com/0xzaid/Map-Visualisation-using-Vega-Lite/main/data/F1/Formula1_2022season_raceResults.csv"
+        "url": "https://raw.githubusercontent.com/toUpperCase78/formula1-datasets/master/Formula1_2022season_raceResults.csv"
     },
-    "mark":"bar",
-    "encoding": {
-        "x": { "field": "Driver","type":"nominal", "sort": "-y" },
-        "y": { "field": "Points","type":"quantitative"},
-        "tooltip": [
-            {"field": "Driver","type":"nominal"},
-            {"field": "Team","type":"nominal"},
-            {"field": "Position","type":"ordinal"},
-            {"field": "Points","type":"quantitative"},
-            {"field": "Starting Grid", "type":"ordinal"},
-            {"field": "Fastest Lap", "type": "nominal"},
-            {"field": "Time/Retired", "type": "nominal", "title": "Time"}
-            
-        ]
-    },
-    "transform": [
-        {
-            "filter": "Race_selection == null || datum.Track == Race_selection"}
-        
-    ],
     "params": [
         {
             "name": "Race_selection",
             "bind":{
                 "input": "select",
                 "options": [
-                    "All",
+                    "null",
                     "Bahrain",
                     "Saudi Arabia",
                     "Australia",
@@ -73,5 +53,25 @@
                 "name": "Race Selection: "
             }
         }
-    ]
+    ],
+    "transform": [
+        {
+            "filter": "Race_selection == null || datum.Track == Race_selection"}
+        
+    ],
+    "mark":"bar",
+    "encoding": {
+        "y": { "field": "Driver","type":"nominal", "sort": "-x" },
+        "x": { "field": "Points","type":"quantitative"},
+        "tooltip": [
+            {"field": "Position","type":"ordinal"},
+            {"field": "Points","type":"quantitative"},
+            {"field": "Driver","type":"nominal"},
+            {"field": "Team","type":"nominal"},
+            {"field": "Starting Grid", "type":"ordinal"},
+            {"field": "Fastest Lap", "type": "nominal"},
+            {"field": "Time/Retired", "type": "nominal", "title": "Time"}
+            
+        ]
+    }
 }
