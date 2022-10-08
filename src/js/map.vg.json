@@ -32,13 +32,14 @@
       
       "mark": {
         "type": "circle",
-        "size": 65
+        "size": 65,
+        "fontSize": 12,
+        "fontStyle": "italic"
       },
       "encoding": {
         "longitude": {
           "field": "lng",
           "type": "quantitative"
-          
         },
         "latitude": {
           "field": "lat",

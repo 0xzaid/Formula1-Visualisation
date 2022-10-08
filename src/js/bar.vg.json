@@ -31,7 +31,7 @@
                     "Singapore"
                     ],
                     "labels":[
-                        "Show all",
+                        "Show All",
                         "Bahrain Grand Prix",
                         "Saudi Arabia Grand Prix",
                         "Australian Grand Prix",
@@ -54,11 +54,11 @@
             }
         }
     ],
-    "transform": [
-        {
-            "filter": "Race_selection == null || datum.Track == Race_selection"}
-        
-    ],
+        "transform": [
+            {
+                "filter": "Race_selection == null || datum.Track == Race_selection"}
+            
+        ],
     "mark":"bar",
     "encoding": {
         "y": { "field": "Driver","type":"nominal", "sort": "-x" },
