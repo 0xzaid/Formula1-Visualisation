@@ -1,11 +1,11 @@
-﻿contructor,points
-Red Bull,619
-Ferrari,454
-Mercedes,387
-Alpine,143
-McLaren,130
-Alfa Romeo,52
-Aston Martin,45
-Haas,34
-AlphaTauri,34
-Williams,8
+﻿contructor,points_2022,points_2021
+Red Bull,619,585
+Ferrari,454,323
+Mercedes,387,613
+Alpine,143,155
+McLaren,130,275
+Alfa Romeo,52,13
+Aston Martin,45,77
+Haas,34,0
+AlphaTauri,34,142
+Williams,8,23
