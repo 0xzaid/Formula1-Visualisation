@@ -1,17 +1,21 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Driver standings by race",
-    "width": 500,
+    "background": "#3a3b3c",
+    "width": 300,
     "data": {
         "url": "https://raw.githubusercontent.com/toUpperCase78/formula1-datasets/master/Formula1_2022season_raceResults.csv"
     },
+    "transform": [
+        {"filter": "datum.Points > 0"},
+        {"filter": "Race_selection == null || datum.Track == Race_selection"}
+    ],
     "params": [
         {
             "name": "Race_selection",
             "bind":{
                 "input": "select",
                 "options": [
-                    "null",
+                    null,
                     "Bahrain",
                     "Saudi Arabia",
                     "Australia",
@@ -28,7 +32,8 @@
                     "Belgium",
                     "Netherlands",
                     "Italy",
-                    "Singapore"
+                    "Singapore",
+                    "Japan"
                     ],
                     "labels":[
                         "Show All",
@@ -48,21 +53,18 @@
                         "Belgian Grand Prix",
                         "Dutch Grand Prix",
                         "Italian Grand Prix",
-                        "Singapore Grand Prix"
+                        "Singapore Grand Prix",
+                        "Japanese Grand Prix"
                     ],
                 "name": "Race Selection: "
             }
         }
     ],
-        "transform": [
-            {
-                "filter": "Race_selection == null || datum.Track == Race_selection"}
-            
-        ],
     "mark":"bar",
     "encoding": {
-        "y": { "field": "Driver","type":"nominal", "sort": "-x" },
-        "x": { "field": "Points","type":"quantitative"},
+        "y": { "field": "Driver","type":"nominal", "sort": "-x", "title": "Driver Name", "axis": {"labelColor": "#ffffff", "titleColor": "#ffffff", "titleFont": "Arial", "labelFont": "Arial", "titleFontSize": 14, "labelFontSize": 12, "titleFontWeight": "bold", "labelFontWeight": "bold"}},
+        "x": { "field": "Points","type":"quantitative" ,"title": "Points", "axis": {"labelColor": "#ffffff", "titleColor": "#ffffff"}},
+        "color": {"value": "#FFE87C"},
         "tooltip": [
             {"field": "Position","type":"ordinal"},
             {"field": "Points","type":"quantitative"},

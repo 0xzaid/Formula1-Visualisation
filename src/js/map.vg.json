@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
-  "height": 450,
-  "title": "Formula 1 2022 World Championship so far",
-  "background": "lightskyblue",
+  "height": 500,
+  "background": "#3a3b3c",
   "projection": {
     "type": "equirectangular",
     "scale": 150
@@ -20,8 +19,8 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white"
+        "stroke": "darkgray",
+        "fill": "#FFE87C"
         
       }
     },
@@ -54,11 +53,8 @@
         "color": {
           "field": "Completed",
           "type": "nominal",
-          "legend": {
-            "title": "Race completed?",
-            "labelFontSize": 12,
-            "titleFontSize": 14
-          },
+          "legend": 
+            {"title":"Status", "labelColor": "#ffffff", "titleColor": "#ffffff", "titleFont": "Arial", "labelFont": "Arial", "titleFontSize": 14, "labelFontSize": 12, "titleFontWeight": "bold", "labelFontWeight": "bold"},
           "scale": {
             "domain": [
               "Yes",

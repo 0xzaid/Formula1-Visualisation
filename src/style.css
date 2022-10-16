@@ -1,18 +1,210 @@
-#symbol_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	position: absolute;
-
-	/*height: 1000px;
-	width: 800px;*/
+.scrolling-box {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
-#bar_chart {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	position: relative;
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #111111;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+ 
+
+.col-one-style1 {
+    flex: 50%;
+  background-color: #111111;
+}
+
+.col-two-style1 {
+    flex: 50%;
+    padding: 50px;
+  background-color: #111111;
+   
+}
+
+.col-two-style2 {
+    flex: 50%;
+  background-color: #111111;
+}
+
+.col-one-style2 {
+    flex: 50%;
+    padding: 50px;
+  background-color: #111111;
+}
+
+.column {
+    width: 80%;
+    float: left;
+    display: flex;
+}
+
+.left, .middle {
+    flex: 25%;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.right {
+    flex: 50%;
+    background: aqua;
+}
+header .dropdown {
+    float: left;
+    overflow: hidden;
+    width: 55px;
+}
+
+#showcase {
+    min-height: 5px;    
+}
+
+#showcase h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 2.5%;
+    color: #fff;
+}
+
+#showcase a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    
+}
+
+#showcase p {
+    padding: 40px;
+    padding-top: 2px;
+    text-align: center;
+    color: #adb5bd;
+}
+
+
+#showcase p:hover {
+    background-color: #111111;
+    color: #ced4da;
+}
+
+
+/* object one */
+
+#object-one {
+    background-color: #111111;
+    padding: 20px;
+    padding-right: 2px;
+    max-height: 530px;}
+
+#object-one h4 {
+    color: #adb5bd;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#object-one h4:hover {
+    background-color: #111111;
+    color: #ced4da;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+#object-one p {
+    color: #adb5bd;
+}
+
+#object-one p:hover {
+    background-color: #111111;
+    color: #ced4da;
+}
+
+#object-two {
+    padding-top: 5px;
+    max-height: 530px;
+    background-color: #111111;
+    padding-bottom: 20px;
+}
+
+#object-two h4 {
+    color: #adb5bd;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#object-two h4:hover {
+    background-color: #111111;
+    color: #ced4da;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#object-two p {
+    color: #adb5bd;
+    text-align: left;
+   
+}
+
+#object-two p:hover {
+    background-color: #111111;
+    color: #ced4da;
+    text-align: left;
+   
+}
+
+#object-three {
+    padding: 20px;
+    max-height: 600px;
+    background-color: #111111;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+
+#object-three h4 {
+    color: #adb5bd;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#object-three h4:hover {
+    background-color: #111111;
+    color: #ced4da;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#object-three p {
+    color: #adb5bd;
+}
+
+#object-three p:hover {
+    background-color: #111111;
+    color: #ced4da;
+   
+   
+}
+
+

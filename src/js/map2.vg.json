@@ -1,9 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Number of drivers per country",
     "width": 800,
-    "height": 400,
-    "background": "lightskyblue",
+    "height": 500,
+    "background": "#3a3b3c",
     "projection": {
         "type": "equirectangular",
         "scale": 150
@@ -15,7 +14,7 @@
         },
         "mark": {
             "type": "geoshape",
-            "stroke": "white"
+            "stroke": "darkgray"
         },
         "transform": [
             {
@@ -26,7 +25,7 @@
                     },
                     "key": "country",
                     "fields": [
-                        "no_of_drivers"
+                        "no_of_drivers", "most_successful", "total_wins"
                     ]
                 }
             },
@@ -39,6 +38,8 @@
             "color": {
                 "field": "Number of drivers",
                 "type": "quantitative",
+                "legend":
+                    {"labelColor": "#ffffff", "titleColor": "#ffffff", "titleFont": "Arial", "labelFont": "Arial", "titleFontSize": 14, "labelFontSize": 12, "titleFontWeight": "bold", "labelFontWeight": "bold"},
                 "scale": {
                     "type": "log"
                 }
