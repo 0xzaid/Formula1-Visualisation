@@ -93,47 +93,58 @@
       </div>
       <div class="col-two-style1">
         <h4>Formula 2022 Driver performance by points and race (Top 10)</h4>
-        <p> This is a bar chart to see all the points gained by all the current Formula 1 drivers. 
-          It can be filtered by each race to see the top 10 drivers of that race. <br><br>
+        <p> Max Verstappen and Red Bull have dominated the 2022 Season and has already been crowned as champion after the Japanese Grand Prix with 4 races left in the calendar season<br><br>
           <i> Toggle the drop-down button to filter by race </i>
         </p>
       </div>
     </div>
   </section>
 
-  <!-- <h1> Formula 1</h1> -->
+  <section id="object-two">
+    <div class="container row scrolling-box">
+      <div class="col-one-style2">
+        <h4>Top constructors by year (1958-2022)
+        
+        </h4>
+        <p>Some of the most successful Formula 1 constructors include Ferrari, McLaren, and Williams. These teams have been responsible for some of the most iconic moments in the sport's history.<br>
+        <br>For the current 2022 season, it is looking like a Red Bull win as they already have
+      619 points with, while second place Ferrari has 454 points
+    <br><br><i>Toggle the drop down button to filter by year</i></p>
+        </div>
+        <div class="col-one-style2" id="donut">
+          <script type="text/javascript">
+            var spec = "donut.vg.json";
+            vegaEmbed('#donut', spec).then(function (result) {
+              // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+          </script>
+        </div>
+      </div>
+  </section>
 
-  <!-- <div id="symbol_map"></div>
-  <h3>Drivers by Nationality</h3>
-  <div id="choropleth_map"></div>
-
-
-
-  <script type="text/javascript">
-    var spec1 = "js/map.vg.json";
-    vegaEmbed('#symbol_map', spec1).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
-
-
-  <script type="text/javascript">
-    var spec2 = "js/map2.vg.json";
-    vegaEmbed('#choropleth_map', spec2).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
-
-  <h3>Formula 1 Vega-Lite Bar Chart</h3>
-  <div id="bar_chart"></div>
-
-  <script type="text/javascript">
-    var spec3 = "js/bar.vg.json";
-    vegaEmbed('#bar_chart', spec3).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script> -->
-
+  <section id="object-three">
+    <div class="container row scrolling-box">
+      <div class="col-one-style1" id="line_chart">
+        <script type="text/javascript">
+          var spec = "line.vg.json";
+          vegaEmbed('#line_chart', spec).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+      </div>
+      <div class="col-two-style1">
+        <h4>Formula 1 Individual driver performance by year</h4>
+        <p> 
+          There have been some exceptional Formula 1 drivers over the years, with Lewis Hamilton currently holding the record for the most points in a season (413 in 2019). However, there have been other drivers who have been equally as successful over the years.
+One of the most successful drivers of all time is Michael Schumacher, who shares the record for the most Formula 1 championships (7) with Lewis Hamilton, Schumacher was dominant during his peak years in the early 2000s, and is widely regarded as one of the greatest drivers of all time.
+Another driver who has had great success in Formula 1 is Sebastian Vettel. Vettel has won 4 championships, and is currently the second most successful driver of all time. Vettel has been particularly successful in recent years, winning 3 championships in a row between 2010 and 2012.
+Hamilton is currently the most successful active Formula 1 driver, with 7 championships to his name.  And is currently regarded as one of the best drivers in the world.
+          <br><br>
+          <i> Toggle the drop-down button to filter by driver </i>
+        </p>
+      </div>
+    </div>
+  </section>
 
 </body>
 

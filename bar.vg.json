@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#3a3b3c",
-    "width": 300,
+    "width": 400,
     "data": {
         "url": "https://raw.githubusercontent.com/toUpperCase78/formula1-datasets/master/Formula1_2022season_raceResults.csv"
     },
